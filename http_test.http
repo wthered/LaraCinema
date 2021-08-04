@@ -1,0 +1,13 @@
+POST http://www.pliassas.gr/cinema/public/api/login
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="username"
+
+wthered
+--WebAppBoundary--
+Content-Disposition: form-data; name="password"
+
+!w727dt3d
+--WebAppBoundary--
+###

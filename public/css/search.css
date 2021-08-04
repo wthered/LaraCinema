@@ -1,0 +1,211 @@
+/*--/search--*/
+.search-right form.search-box {
+	display: block;
+	position: relative;
+}
+
+.search-right {
+	margin-left: 10px;
+}
+
+.search-right a.btn.search-hny {
+	border: 1px solid var(--theme-rose);
+	background: var(--theme-rose);
+	color: #fff;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+
+.search-right a.btn.search-hny:hover {
+	border: 1px solid var(--theme-blue);
+	background: var(--theme-blue);
+	transition: 0.5s ease-out;
+}
+
+.search-right a.hnysearch-icon {
+	text-align: center;
+	display: inline-block;
+	margin: 0 24px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	padding: 0 6px;
+}
+
+.search-right a.hnysearch-icon span.fa.fa-search {
+	font-size: 18px;
+}
+
+.search-right .popup form input[type="search"] {
+	padding: 15px 45px 15px 15px;
+	border: none;
+	background: #fff;
+	color: var(--theme-title);
+	font-size: 16px;
+	border-radius: 6px;
+	margin: 0;
+	text-align: left;
+	height: 60px;
+	width: 100%;
+}
+
+.search-right .popup form button {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	color: var(--theme-color);
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
+
+.search-right .popup form input:focus {
+	outline: none;
+	border: none;
+}
+
+/* This is mine */
+.search-right .popup .search-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.search-right .popup .search-list .search-item {
+	margin-top: 1rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	width: 10%;
+}
+
+.search-right .search-browse {
+	color: #fff;
+	margin-bottom: 26px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* End of mine */
+
+ul.search-items {
+	text-align: center;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+ul.search-items li {
+	margin: 10px;
+	list-style: none;
+	display: inline-block;
+}
+
+ul.search-items li a {
+	font-size: 1rem;
+	color: var(--theme-white);
+	text-transform: capitalize;
+	font-weight: 700;
+	text-decoration: none;
+	border: 1px solid #eb4d4b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.25rem;
+	border-radius: 0.2rem;
+}
+
+ul.search-items li a:hover {
+	color: var(--theme-rose);
+	background-color: #eb4d4b;
+	border-color: #eb4d4b;
+	transition: 0.5s ease-out;
+	-webkit-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+}
+
+.search-right .pop-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: opacity 0ms;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 99;
+	background: rgba(0, 0, 0, 0.93);
+	height: 100vh;
+}
+
+.search-right .pop-overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.search-right .popup {
+	padding: 40px 50px;
+	border-radius: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.search-right .popup form {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.search-right .search-top {
+	display: grid;
+	grid-template-columns: auto 1fr 1fr;
+	grid-gap: 30px;
+	margin-top: 24px;
+}
+
+.search-right .search-top h4 {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 16px;
+}
+
+.search-right .popup h3 {
+	color: #fff;
+	margin-bottom: 26px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.search-right .search-top li {
+	display: block;
+	list-style: none;
+}
+
+.search-right .search-top li a {
+	font-size: 16px;
+	color: #fff;
+	line-height: 28px;
+}
+
+.search-right .search-top li a:hover {
+	color: #fff;
+}
+
+.search-right .close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	transition: all 200ms;
+	font-size: 40px;
+	text-decoration: none;
+	color: #fff;
+	opacity: 1;
+	background: none;
+}
+
+.search-right .close:hover {
+	opacity: 0.8;
+	background: none;
+}

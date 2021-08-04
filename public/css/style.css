@@ -1,0 +1,243 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--color-midnight-blue: #1f0D3C;
+	--color-grandis: #FEC868;
+	--color-misty-rose: #FEE0D5;
+	--color-cornflower-blue: #53AFEE;
+	--theme-white: #dff9fb;
+	font-size: 16px;
+}
+
+html {
+	font-family: sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+.link-item {
+	text-transform: capitalize;
+}
+
+.navbar-style {
+	background-color: #30336b;
+}
+
+.navbar-style a.nav-link,
+.navbar-style a.navbar-brand {
+	color: #999;
+}
+
+.film-category {
+	font-size: 2rem;
+	color: indianred;
+}
+
+.film-category-head {
+	text-align: center;
+	background-color: transparent;
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.film-category-name {
+	height: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	padding-left: 1rem;
+}
+
+.film-category-link {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: darkcyan;
+	font-size: 1.25rem;
+}
+
+#film_head {
+	background: red;
+	display: flex;
+	justify-content: center;
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+	font-size: 1.25rem;
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
+/* Hello View FilmCard */
+.card {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 15px;
+	margin-bottom: 48px;
+}
+
+.img_one img {
+	height: 200px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 100%;
+}
+
+.img_two img {
+	position: relative;
+	display: block;
+	z-index: 1;
+	width: auto;
+	height: 10rem;
+	border-radius: .75rem;
+	border: 2px solid transparent;
+	margin-top: -80px;
+	left: 2rem;
+}
+
+.card:hover .img_two img {
+	border-color: #40739e;
+	transition: .7s;
+}
+
+.main-text {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.main-text .film-link {
+    color: #40739e;
+    text-decoration: none;
+}
+
+.main-text h2 {
+	text-transform: capitalize;
+	font-weight: 900;
+	font-size: 20px;
+	margin: 0 1rem 1.25rem 1rem;
+	line-height: 1.25rem;
+	min-height: 2.5rem;
+}
+
+.main-text p {
+	padding: 0 1rem;
+	line-height: 1.25rem;
+	max-height: 5rem;
+	height: 5rem;
+	overflow: hidden;
+	text-align: justify;
+}
+/* //Hello View FilmCard */
+
+/* Film Page Elements */
+.film-title {
+	text-align: center;
+	font-size: 5rem;
+}
+
+p#film-plot {
+	text-align: justify;
+	text-indent: 2rem;
+}
+
+.features-box {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.text-position {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	display: block;
+	left: 0;
+	right: 0;
+	background: #04040491;
+	padding: 25px;
+}
+
+.text-position h4 a {
+	color: #686de0;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.text-position h4 a:hover {
+	color: #4834d4;
+	text-decoration: underline;
+}
+
+.text-position p {
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 15px;
+	margin-top: 4px;
+}
+
+.btn-genre {
+	color: #fff;
+	background-color: #686de0;
+	border-color: #686de0;
+}
+
+.crew {
+	background-color: #fcc;
+	margin-top: 3rem;
+}
+
+.directors {
+
+}
+
+.writers {
+	
+}
+/* //Film Page Elements */
+
+.parent {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.image_this {
+	position: relative;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	display: block;
+}
+.image_that {
+	position: absolute;
+	bottom: -64px;
+	left: 10%;
+	width: 20%;
+}
+
+/* Recent Movies */
+.filter-box {
+	border: 1px solid indianred;
+	margin-top: 1rem;
+}
+
+.filter-box ul {
+
+}
+
+.filter-box ul li {
+	list-style: none;
+}
+
+#btn-date-range {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-left: 25%;
+	width: 75%;
+}
+/* //Recent Movies */
